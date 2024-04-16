@@ -1,0 +1,70 @@
+
+.payPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.payForm {
+  width: 40%; 
+  padding: 20px;
+  align-self: center;
+  margin-top:40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.payForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.payForm input {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.payForm .moneyLine {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 2px solid blue;
+}
+
+.payForm button {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.payForm button:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+
+.totalBillContainer {
+  text-align: center; 
+  font-size: large;
+  margin-top: 10px;
+}
+
+.totalBillBox {
+  background-color: blue;
+  color: white;
+  display: inline-block; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 24px;
+}

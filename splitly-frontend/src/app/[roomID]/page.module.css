@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 20px;
+  }
+  
+  .billAmount,
+  .splitCheckbox,
+  .memberStatus,
+  .friendsList {
+    margin: 10px;
+  }
+
+  .split, .memberStatus
+  {
+    font-size: large;
+    font-weight:bold
+  }
+
+  .totalBillContainer {
+    text-align: center; 
+    font-size: large;
+    margin-top: 10px;
+  }
+  
+  .totalBillBox {
+    background-color: blue;
+    color: white;
+    display: inline-block; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 24px;
+  }
+  
+  .friendPaid {
+    color: green;
+    font-weight: 400;
+  }
+  
+  .friendNotPaid {
+    color: red;
+    font-weight: 400;
+  }
+  

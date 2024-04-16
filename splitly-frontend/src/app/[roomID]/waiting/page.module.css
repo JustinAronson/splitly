@@ -1,0 +1,30 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: large;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px; 
+  
+}
+
+.groupSettings {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  font-style: italic;
+  margin-left: 10px;
+  font-size: medium;
+}
+
+.pText
+{
+  margin-bottom: 30px;
+}
